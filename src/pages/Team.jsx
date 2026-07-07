@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Star, GraduationCap, Globe, Calendar, Instagram, Linkedin, MessageSquare, ChevronDown, ChevronUp } from 'lucide-react';
+import { Star, GraduationCap, Globe, Calendar, Camera, Briefcase, MessageSquare, ChevronDown, ChevronUp } from 'lucide-react';
 
 const TEAM_DATA = [
   {
@@ -112,10 +112,10 @@ export default function Team() {
                     {/* Socials overlay */}
                     <div className="absolute bottom-4 left-4 flex space-x-2">
                       <a href={vet.socials.instagram} className="w-8 h-8 rounded-lg bg-slate-900/70 hover:bg-vida-blue text-white flex items-center justify-center backdrop-blur-sm transition-all duration-300">
-                        <Instagram className="w-4 h-4" />
+                        <Camera className="w-4 h-4" />
                       </a>
                       <a href={vet.socials.linkedin} className="w-8 h-8 rounded-lg bg-slate-900/70 hover:bg-vida-blue text-white flex items-center justify-center backdrop-blur-sm transition-all duration-300">
-                        <Linkedin className="w-4 h-4" />
+                        <Briefcase className="w-4 h-4" />
                       </a>
                     </div>
                   </div>
