@@ -1,16 +1,28 @@
-# React + Vite
+# Vida Pet - Clínica Veterinária
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Bem-vindo ao repositório do **Vida Pet**, o website e sistema para nossa Clínica Veterinária.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo do Site
+O objetivo principal deste projeto é apresentar os serviços oferecidos pela clínica veterinária, proporcionar uma interface amigável para os clientes conhecerem a equipe, verem as especialidades e realizarem agendamentos de consultas de forma prática e rápida.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias Utilizadas
+Este projeto foi construído utilizando tecnologias modernas para garantir rapidez e responsividade:
+- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
+- **Vite**: Ferramenta de build rápida para projetos web.
+- **Tailwind CSS**: Framework de CSS para estilização rápida e responsiva.
 
-## React Compiler
+## 🛠️ Como executar o projeto localmente
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Siga os passos abaixo para rodar o projeto na sua máquina:
 
-## Expanding the Oxlint configuration
+1. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+2. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+3. Acesse o link gerado no terminal (geralmente `http://localhost:5173`) no seu navegador.
