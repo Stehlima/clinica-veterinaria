@@ -17,7 +17,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/clinica-veterinaria/">
         <div className="flex flex-col min-h-screen">
           {/* Automatically scrolls to top on navigation, and shows go-to-top floating button */}
           <ScrollToTop />
